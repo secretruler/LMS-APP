@@ -45,6 +45,13 @@ img.img_avatar2 {
   border-radius: 50%;
 }
 
+.avatar {
+    border-radius: 50%;
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures the image covers the entire container */
+}
+
 .container {
   padding: 16px;
 }
@@ -71,7 +78,7 @@ span.psw {
 	<center><h2> Trainer Login Form </h2></center>
 <form action="/action_page.php" method="post">
   <div class="imgcontainer">
-    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    <img src="trainer.png" alt="Avatar" class="avatar">
   </div>
 
   <div class="container">
